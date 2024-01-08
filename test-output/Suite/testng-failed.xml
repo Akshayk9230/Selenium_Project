@@ -7,15 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="url" value="https://www.saucedemo.com/"/>
     <classes>
-      <class name="DemoShoppingApp.Tests.LoginTests">
+      <class name="DemoShoppingApp.Tests.Test2">
         <methods>
           <include name="launchApplication"/>
-          <include name="loginTestPositive"/>
           <include name="teardown"/>
-          <include name="loginTest_wrongCredentials"/>
-          <include name="loginTest_locked_user"/>
+          <include name="endToEndTesting"/>
         </methods>
-      </class> <!-- DemoShoppingApp.Tests.LoginTests -->
+      </class> <!-- DemoShoppingApp.Tests.Test2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
