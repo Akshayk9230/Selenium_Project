@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T11:22:29 IST" name="Suite" finished-at="2024-01-08T11:22:38 IST" duration-ms="9004">
+  <suite started-at="2024-05-03T19:29:34 IST" name="Suite" finished-at="2024-05-03T19:29:43 IST" duration-ms="9032">
     <groups>
     </groups>
-    <test started-at="2024-01-08T11:22:29 IST" name="Test" finished-at="2024-01-08T11:22:38 IST" duration-ms="9004">
+    <test started-at="2024-05-03T19:29:34 IST" name="Test" finished-at="2024-05-03T19:29:43 IST" duration-ms="9032">
       <class name="DemoShoppingApp.Tests.LoginTests">
-        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:29 IST" name="launchApplication" finished-at="2024-01-08T11:22:34 IST" duration-ms="4571" status="PASS">
+        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:34 IST" name="launchApplication" finished-at="2024-05-03T19:29:40 IST" duration-ms="5380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginTestPositive()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:34 IST" name="loginTestPositive" finished-at="2024-01-08T11:22:34 IST" duration-ms="265" status="PASS">
+        <test-method signature="loginTestPositive()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:40 IST" name="loginTestPositive" finished-at="2024-05-03T19:29:40 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestPositive -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:34 IST" name="teardown" finished-at="2024-01-08T11:22:34 IST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:40 IST" name="teardown" finished-at="2024-05-03T19:29:40 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:34 IST" name="launchApplication" finished-at="2024-01-08T11:22:36 IST" duration-ms="1689" status="PASS">
+        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:40 IST" name="launchApplication" finished-at="2024-05-03T19:29:41 IST" duration-ms="1182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginTest_locked_user()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:36 IST" name="loginTest_locked_user" finished-at="2024-01-08T11:22:36 IST" duration-ms="220" status="PASS">
+        <test-method signature="loginTest_locked_user()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:41 IST" name="loginTest_locked_user" finished-at="2024-05-03T19:29:42 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest_locked_user -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:36 IST" name="teardown" finished-at="2024-01-08T11:22:36 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:42 IST" name="teardown" finished-at="2024-05-03T19:29:42 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:36 IST" name="launchApplication" finished-at="2024-01-08T11:22:38 IST" duration-ms="1564" status="PASS">
+        <test-method is-config="true" signature="launchApplication(java.lang.String)[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:42 IST" name="launchApplication" finished-at="2024-05-03T19:29:43 IST" duration-ms="1255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginTest_wrongCredentials()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:38 IST" name="loginTest_wrongCredentials" finished-at="2024-01-08T11:22:38 IST" duration-ms="198" status="PASS">
+        <test-method signature="loginTest_wrongCredentials()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:43 IST" name="loginTest_wrongCredentials" finished-at="2024-05-03T19:29:43 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest_wrongCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-01-08T11:22:38 IST" name="teardown" finished-at="2024-01-08T11:22:38 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DemoShoppingApp.Tests.LoginTests@5c30a9b0]" started-at="2024-05-03T19:29:43 IST" name="teardown" finished-at="2024-05-03T19:29:43 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

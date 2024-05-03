@@ -73,7 +73,10 @@ public class ExtentreportsDemoListeners implements ITestListener{
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onStart(context);
-		reporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\Reports.html");
+		Date date =new Date();
+		SimpleDateFormat format=new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss");
+		String currentDate=format.format(date);
+		reporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\Reports"+currentDate+".html");
 		reporter.config().setTheme(Theme.DARK);
 		reporter.config().setDocumentTitle("Extent Report");
 		reporter.config().setReportName("This is Demo Report for Testing");
